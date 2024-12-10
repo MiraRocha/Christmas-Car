@@ -6,6 +6,7 @@ body {
     height: 100vh;
 }
 
+
 .christmas-card {
     overflow: hidden;
     position: relative;
@@ -88,6 +89,186 @@ body {
         background-color: #e9d8a6;
     }
 }
+
+.gift {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    background-color: #ffc857;
+    top: 290px;
+    left: 180px;
+    border-radius: 2%;
+    box-shadow: inset -8px 0px 0px rgba(0, 0, 0, 0.058);
+    z-index: 1;
+}
+
+.gift:before {
+    content: "";
+    position: absolute;
+    width: 44px; 
+    height: 10px; 
+    background-color: #ffc857; 
+    top: -10px; 
+    left: -2px;  
+    border-radius: 2%;
+    box-shadow: inset -8px -2px 0 rgba(0, 0, 0, 0.058);
+}
+
+.gift:after {
+    content: "";
+    position: absolute;
+    background-color: #db3a34;
+    width: 6px;
+    height: 35px;
+    left: 18px;
+    top: -10px;
+}
+
+.ribbon {
+    position: absolute;
+    width: 12px;
+    height: 8px;
+    border: 2px solid #db3a34;
+    border-radius: 50%;
+    transform: skew(15deg, 21deg);
+    top: 268px;
+    left: 185px;
+    z-index: 1;
+}
+
+.ribbon:before {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 8px;
+    border: 2px solid #db3a34;
+    border-radius: 50%;
+    transform: skew(-19deg, -30deg);
+    top: -6px;
+    left: 11px;
+    z-index: 1;
+}
+
+.gift2 {
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    background-color: #08bdbd;
+    top: 300px;
+    left: 158px;
+    border-radius: 2%;
+    box-shadow: inset -4px 0px 0px rgba(0, 0, 0, 0.058);
+    z-index: 1;
+}
+
+.gift2:before {
+    content: "";
+    position: absolute;
+    width: 29px; 
+    height: 7px; 
+    background-color: #08bdbd; 
+    top: -5px; 
+    left: -2px; 
+    border-radius: 2%; 
+    box-shadow: inset -4px -1px 0 rgba(0, 0, 0, 0.058);
+}
+
+.gift2:after {
+    content: "";
+    position: absolute;
+    background-color: #abff4f;
+    width: 4px;
+    height: 25px;
+    left: 12px;
+    top: -5px;
+}
+
+.ribbon2 {
+    position: absolute;
+    width: 8px;
+    height: 6px;
+    border: 2px solid #abff4f;
+    border-radius: 50%;
+    transform: skew(15deg, 15deg);
+    top: 285px;
+    left: 160px;
+    z-index: 1;
+}
+
+.ribbon2:before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 6px;
+    border: 2px solid #abff4f;
+    border-radius: 50%;
+    transform: skew(-19deg, -30deg);
+    top: -3px;
+    left: 8px;
+    z-index: 1;
+}
+
+.gift3 {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    background-color: #7678ed;
+    top: 292px;
+    left: 125px;
+    border-radius: 2%;
+    box-shadow: inset -6px 0px 0px rgba(0, 0, 0, 0.058);
+    z-index: 1;
+}
+
+.gift3:before {
+    content: "";
+    position: absolute;
+    width: 34px; 
+    height: 8px; 
+    background-color: #7678ed; 
+    top: -5px; 
+    left: -2px; 
+    border-radius: 2%; 
+    box-shadow: inset -6px -2px 0 rgba(0, 0, 0, 0.058);
+}
+
+.gift3:after {
+    content: "";
+    position: absolute;
+    background-color: #e19ef2;
+    width: 4px;
+    height: 25px;
+    left: 12px;
+    top: -5px;
+
+}
+
+.ribbon3 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #e19ef2;
+    border-radius: 50%;
+    transform: skew(15deg, 15deg);
+    top: 276px;
+    left: 129px;
+    z-index: 1;
+}
+
+.ribbon3:before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 6px;
+    border: 2px solid #e19ef2;
+    border-radius: 50%;
+    transform: skew(-19deg, -30deg);
+    top: -3px;
+    left: 8px;
+    z-index: 1;
+}
+
+
 
 .snow, .snow:before {
     position: absolute;
